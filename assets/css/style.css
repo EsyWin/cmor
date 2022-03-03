@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "mammoth";
+  src: url("../fonts/mammoth/mammoth-webfont.woff2") format("woff2"),
+    url("../fonts/mammoth/mammoth-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "mammoth outline";
+  src: url("../fonts/mammoth/mammoth_outline-webfont.woff2") format("woff2"),
+    url("../fonts/mammoth/mammoth_outline-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "core";
+  src: url("../fonts/core/core-webfont.woff2") format("woff2"),
+    url("../fonts/core/core-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "bastrad";
+  src: url("../fonts/bastrad/bastrad-webfont.woff2") format("woff2"),
+    url("../fonts/bastrad/bastrad-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+}
+
+h1 {
+  font-family: "bastrad";
+  font-size: 33rem;
+  text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+  color: #333;
+}
+
+span {
+  position: absolute;
+  bottom: 33px;
+  font-family: "core";
+}
